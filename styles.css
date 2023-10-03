@@ -8,7 +8,9 @@
 .c3 p{
   color:red;
 }
-.c22 p{
+.c22 {
+border: 2px solid blue;
+padding: 30px;
 color:black;
 }
 .picca img {
