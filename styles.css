@@ -1,3 +1,6 @@
+body{
+background-image: linear-gradient(to bottom, yellow, blue);
+}
 .c1 {
   color:blue;
   margin: 50px;
