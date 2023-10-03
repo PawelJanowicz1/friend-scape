@@ -16,6 +16,7 @@ color:black;
 .picca img {
 width: 300px;
 height: 300px;
+float:left;
 }
 .sound {
 background-color:orange;
