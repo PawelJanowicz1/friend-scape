@@ -1,5 +1,5 @@
 body{
-background-image: url("images/picca.jpeg");
+background-image: url("none");
 background-size: cover;
 }
 .c1 {
@@ -30,3 +30,6 @@ display:inline-block;
 color:white;
 text-align:center;
 }
+
+table, th, td {
+  border:5px solid blue;
