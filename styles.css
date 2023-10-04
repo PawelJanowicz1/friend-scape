@@ -1,5 +1,6 @@
 body{
-background-image: linear-gradient(to bottom, yellow, blue);
+background-image: url("images/picca.jpeg");
+background-size: cover;
 }
 .c1 {
   color:blue;
