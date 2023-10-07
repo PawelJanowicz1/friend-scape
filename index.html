@@ -60,7 +60,7 @@
 
 <form action="forms.html">
  <label for="fname">Imie:</label>
-  <input type="text" id="fname">
+  <input type="text" id="fname" autofocus>
 </form>
 <pre>
   My Bonnie lies over the ocean.
@@ -100,9 +100,17 @@
 <a class="picca" href="https://www.dragonpizza.pl"><img src="images/picca.jpeg" alt="piccunia"></a>
 
 <a id="3" class="sound" href="https://soundcloud.com/pauuuuuuul">Link do soundcloud </a>
+<form>
+  <label for="readonlyField">Pole tylko do odczytu:</label>
+  <input type="text" id="readonlyField" name="readonlyField" value="To jest pole tylko do odczytu" readonly>
+
+  <label for="slider">Select a value:</label>
+  <input type="range" id="slider" name="slider" min="0" max="100" step="1" value="50">
+</form>
+
 
 <form action="forms.html">
-  <input type="checkbox" name="txt" id="txt">
+  <input type="checkbox" name="txt" id="txt" autofocus>
   <label for="txt">Wpisz tu tekst</label>
   <input type="button" onclick="alert('UWAZAJ')" value="Wcisnij mnie" >
 </form>
