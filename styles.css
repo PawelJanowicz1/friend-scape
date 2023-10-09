@@ -1,6 +1,7 @@
 body{
 background-image: url("none");
 background-size: cover;
+background-color:blue;
 }
 .c1 {
   color:blue;
