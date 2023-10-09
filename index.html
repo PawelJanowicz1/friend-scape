@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <title> Nauka html</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="images/picca.jpeg">
@@ -8,10 +11,10 @@
 <body>
 <!-- to jest komentarz -->
 
-<video autoplay muted controls>
+<video id="wideo" autoplay muted controls>
   <source src="movies/OSG%20-%20Never%20Say%20Die!.mp4">
 </video>
-<audio controls autoplay muted>
+<audio class="audio" controls autoplay muted>
   <source src="sounds/Clannad%20OST%20~%20Phases%20of%20the%20Moon.wav">
 </audio>
 <img src="images/oscypek.jpeg" alt="zdjecie oscypkow" width="400" height="400">
@@ -122,7 +125,14 @@
   <input type="button" onclick="alert('UWAZAJ')" value="Wcisnij mnie" >
 </form>
 
-
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
 
 <pre>
   My Bonnie lies over the ocean.

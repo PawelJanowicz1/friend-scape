@@ -1,7 +1,7 @@
 body{
 background-image: url("none");
 background-size: cover;
-background-color:blue;
+background-color:white;
 }
 .c1 {
   color:blue;
@@ -39,3 +39,10 @@ table, th, td {
 #yolo{
   color:purple;
   border:50px}
+
+  pre{
+  color:purple;
+  }
+#wideo{
+size:20%;}
+
