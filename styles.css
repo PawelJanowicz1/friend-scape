@@ -1,7 +1,8 @@
 body{
 background-image: url("none");
 background-size: cover;
-background-color:white;
+background-color: green;
+  opacity: 0.9;
 }
 .c1 {
   color:blue;
@@ -46,3 +47,4 @@ table, th, td {
 #wideo{
 size:20%;}
 
+/* comment */
