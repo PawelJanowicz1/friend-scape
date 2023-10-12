@@ -1,55 +1,8 @@
 body{
-background-image: url("none");
-background-size: cover;
-background-color: green;
-  opacity: 0.9;
   font-family: Sofia, Verdana, sans-serif;
+}
+#Heading {
+color:blue;
+font-family:Verdana;
 
-}
-.c1 {
-  color:blue;
-  margin: 50px;
-}
-.c2 p{
-  color:brown;
-}
-.c3 p{
-  color:red;
-}
-.c22 {
-border: 2px solid blue;
-padding: 30px;
-color:black;
-}
-.picca img {
-width: 300px;
-height: 300px;
-float:left;
-}
-.sound {
-background-color:orange;
-padding:20px;
-text-decoration:none;
-display:inline-block;
-color:white;
-text-align:center;
-}
-
-table, th, td {
-  border:5px solid blue;
-  }
-
-#yolo{
-  color:purple;
-  border:50px}
-
-  pre{
-  color:purple;
-  }
-#wideo{
-size:20%;}
-
-.c22{
-text-transform: uppercase}
-
-/* comment */
+      }
