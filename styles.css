@@ -101,7 +101,6 @@ span.psw {
   from {transform: scale(0)}
   to {transform: scale(1)}
 }
-
 @media screen and (max-width: 300px) {
   span.psw {
      display: block;
