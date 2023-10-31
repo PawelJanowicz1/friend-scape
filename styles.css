@@ -85,6 +85,7 @@ span.psw {
   color: red;
   cursor: pointer;
 }
+
 .animate {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
@@ -105,4 +106,5 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+
 }
