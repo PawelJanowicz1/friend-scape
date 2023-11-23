@@ -9,5 +9,4 @@ public class FriendScapeApplication {
     public static void main(String[] args) {
         SpringApplication.run(FriendScapeApplication.class, args);
     }
-
 }
