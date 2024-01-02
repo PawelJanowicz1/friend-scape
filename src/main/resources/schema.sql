@@ -26,4 +26,3 @@ CREATE TABLE COMMENT (
 ALTER TABLE COMMENT
     ADD CONSTRAINT comment_post_id
         FOREIGN KEY (post_id) REFERENCES post(id)
-
